@@ -1,0 +1,49 @@
+.tx-card {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #020617;
+  border: 1px solid #1f2937;
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+  color: #e5e7eb;
+  height: fit-content;
+  max-width: 98vw;
+}
+
+.tx-main-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.tx-main-info span {
+  display: inline-block;
+}
+
+.tx-details {
+  margin-left: 16px;
+}
+
+.tx-details summary {
+  cursor: pointer;
+  color: #2563eb;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.tx-details-content {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: #cbd5e1;
+}
+
+.activeD {
+  flex-direction: column;
+}
